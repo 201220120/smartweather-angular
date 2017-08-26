@@ -1,0 +1,15 @@
+.hero {
+    margin-top: 0;
+    padding-top: 3rem;
+    overflow-x: hidden;
+    background: #000;
+    text-align: center;    
+}
+.theme-dark {
+    background-color: #000;
+    color: #ccc;
+}
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+}

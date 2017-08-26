@@ -1,0 +1,43 @@
+.team-wrapper {
+    background: #fff;
+}
+.space-100 {
+    width: 100%;
+    height: 100px;
+}
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+.person-col {
+    position: relative;
+    overflow: hidden;
+}
+.person-col .person-overlay .person-inner {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    margin-top: 0px;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.person-col .person-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+.person-col .person-overlay {
+    visibility: hidden;
+}

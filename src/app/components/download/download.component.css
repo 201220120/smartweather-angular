@@ -1,0 +1,13 @@
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../../../assets/images/download.jpg') no-repeat center center;
+    background-size: cover;
+}
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}

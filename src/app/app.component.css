@@ -1,0 +1,25 @@
+#ac-globalnav {
+    background-color: rgba(51,51,51,0.6);
+}
+#ac-globalnav {
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    color:#fff;
+}
+.navbar>a, .nav-item>a{
+    color:#fff;
+    text-decoration: none;
+}
+.navbar>a:hover, .nav-item>a:hover{
+    color:#ADADAD;
+    text-decoration: none;
+}
+.main-container{
+    background-color: #fafafa;
+}
