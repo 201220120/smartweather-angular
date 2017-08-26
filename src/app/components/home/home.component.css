@@ -1,6 +1,5 @@
 .hero {
     margin-top: 0;
-    padding-top: 3rem;
     overflow-x: hidden;
     background: #000;
     text-align: center;    
@@ -12,4 +11,18 @@
 .section-content {
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../../../assets/images/luna.jpg') no-repeat center center;
+    min-height: 602px;
+}
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }

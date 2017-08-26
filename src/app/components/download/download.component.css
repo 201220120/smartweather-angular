@@ -4,7 +4,7 @@
     text-align: center;
     color: #f8f8f8;
     background: url('../../../assets/images/download.jpg') no-repeat center center;
-    background-size: cover;
+    min-height: 602px;
 }
 .intro-message {
     position: relative;

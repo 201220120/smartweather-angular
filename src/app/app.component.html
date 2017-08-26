@@ -1,31 +1,29 @@
-<div class="container-fluid p-0 m-0" style="overflow-x: hidden;">
-  <div id="ac-globalnav" class="row">
-    <div class="container">
-      <nav class="navbar navbar-toggleable-md py-0">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-        <a class="navbar-brand" [routerLink]="['']">SmartWeather</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['download']">Descargas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['features']">Caracteristicas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" [routerLink]="['team']">Nuestro equipo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/api/">API Rest</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+<div id="ac-globalnav">
+  <nav class="navbar navbar-toggleable-md navbar-light py-0">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <a class="navbar-brand" [routerLink]="['']">SmartWeather</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['download']">Descargas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['features']">Caracteristicas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['team']">Nuestro equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/api/">API Rest</a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
+</div>
+<div class="container-fluid p-0 m-0" style="overflow-x: hidden;">
   <div class="main-container">
     <router-outlet></router-outlet>
   </div>
