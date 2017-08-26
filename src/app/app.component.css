@@ -15,8 +15,12 @@
     color:#fff;
     text-decoration: none;
 }
-a:hover, .nav-item>a:hover{
-    color:#ADADAD;
+.nav-item>a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.nav-item>a:visited{
+    color:#ADADAD;    
     text-decoration: none;
 }
 .main-container{
