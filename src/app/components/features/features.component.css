@@ -8,3 +8,46 @@
     border-bottom: 1px solid #e7e7e7;
     background-color: #fff;
 }
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../../../assets/images/lluvia.jpg') no-repeat center center;
+    min-height: 602px;
+}
+.intro-message {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.large-6 {
+    width: 50%;
+}
+.column {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 2px;
+}
+.eyebrow {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 300;
+    letter-spacing: 0em;
+    display: block;
+    margin-bottom: 18px;
+}
+.subsection-hero-headline {
+    font-size: 52px;
+    line-height: 1.07724;
+    font-weight: 200;
+    letter-spacing: -.016em;
+}
+.subsection-hero .section-content {
+    color: #fff;
+    text-align: left;
+}
