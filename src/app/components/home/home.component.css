@@ -26,3 +26,13 @@
     padding-top: 15%;
     padding-bottom: 15%;
 }
+
+@media only screen and (max-width: 768px) {
+    .subsection-hero-headline[_ngcontent-c1] {
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 1200px) {
+}

@@ -51,3 +51,21 @@
     color: #fff;
     text-align: left;
 }
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 989px) {
+    .large-6 {
+        width: 100%;
+    }
+    .intro-header {
+        min-height: 375px;        
+    }
+}
+@media only screen and (max-width: 768px) {
+    .subsection-hero-headline {
+        font-size: 28px;
+    }    
+    .intro-header {
+        min-height: 594px;
+    }
+}
